@@ -10,7 +10,7 @@ document.getElementById('loginButton').addEventListener('click', function(e) {
 
         // Redirect to a new page after a delay, applying a callback function
         setTimeout(function() {
-            redirectToHomePage('home.html');
+            redirectToHomePage('index.html');
         }, 1000); // 1000 milliseconds (1 second) delay
     } else {
         // Display an error message
